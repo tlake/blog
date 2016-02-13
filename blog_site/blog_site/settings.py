@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["blog.tannerjlake.com"]
+ALLOWED_HOSTS = ["blog.tannerjlake.com", "*"]
 
 
 # Application definition
@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'blog_db',
         'USER': DB_USER,
-        'PASS': DB_PASS,
+        'PASSWORD': DB_PASS,
     }
 }
 

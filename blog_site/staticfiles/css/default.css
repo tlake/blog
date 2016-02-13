@@ -62,3 +62,8 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 12, ../sass/default.sass */
+body {
+  background-color: #434;
+}
